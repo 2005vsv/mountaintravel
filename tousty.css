@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+    
+}
+.im{
+   
+   
+   grid-template-columns: repeat(2,2fr);
+   grid-gap: 1px;
+   
+   
+
+   
+
+}
+.figure{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+figcaption{
+    font-size: 20px;
+    
+}
+.tgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    object-fit: contain;
+    grid-area: span;
+    
+    border-radius: 1px solid black;
+    justify-items: center;
+    background-image: url('https://media.istockphoto.com/id/1159397218/photo/summer-beach-and-sea-with-clear-sky-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZRFf9n8jQplutwPfopYHh9jB3IbflRjy1erLQQPRD74=');
+    background-size: cover;
+    
+    
+    
+    
+    
+}
+.but{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    border-radius: 1rem;
+    background-color: orange;
+    padding: 7px 7px;
+    font-size: 15px;
+    margin-bottom: 90px;
+    
+}
+/* .button:hover{
+    filter: drop-shadow(1px 1px 20px yellow);
+    cursor: pointer;
+} */
+.srilanka{
+    width: 500px;
+    height: 340px;
+}
+.img{
+    border-radius: 1px solid black;
+
+
+
+    
+}
+.tour{
+    display: flex;
+    justify-content: center;
+    color: darkgoldenrod;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+
+
+.grid{
+    /* border: 5px solid red; */
+    border-radius: 1rem;
+    padding: 5px 10px  ;
+    
+    box-shadow: 0 5px 5px 5px grey;
+    margin: 30px;
+    height: 400px;
+    width: 350px;
+    
+    
+}
+.srilanka{
+    width: 350px;
+}
+.grid:hover{
+     transform: scale(1.1);
+     z-index: 5;
+     cursor: pointer;
+}
+#img1{
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    
+    width: 100%;
+    cursor: pointer;
+    
+}
+/* #img1:hover{
+    filter: drop-shadow(1px 1px 20px yellow);
+} */
+.two{
+    
+    border-radius: 1rem;
+    box-shadow:0 5px 5px 5px grey;
+    height: 400px; 
+    margin: 30px;
+    padding: 5px 10px;
+    width: 350px;
+    
+
+}
+.two:hover{
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+#img2{
+    border-radius: 1rem;
+    width: 350px;
+    
+    
+}
+/* #img2:hover{
+    filter: drop-shadow(1px 1px 20px yellow);
+} */
+.but1{
+    display: flex;
+    justify-content: center;
+}
+
+.three{
+    border-radius: 1rem;
+    box-shadow:0 5px 5px 5px grey;
+    height: 400px; 
+    margin: 30px;
+    padding: 5px 10px;
+    width: 350px;
+}
+.three:hover{
+    transform: scale(1.1);
+    z-index: 5;
+}
+#img3{
+    border-radius: 1rem;
+    width: 350px;
+}
+.but2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.four{
+    border-radius: 1rem;
+    box-shadow:0 5px 5px 5px grey;
+    height: 400px; 
+    margin: 30px;
+    padding: 5px 10px;
+    width: 350px;
+}
+.four:hover{
+    transform: scale(1.1);
+    z-index: 5;
+}
+#img4{
+    border-radius: 1rem;
+    width: 350px;
+    height: 235px;
+}
+
+/* .but3{
+    display: flex;
+    justify-content: center; 
+} */
+
+.place{
+    
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 5px 10px;
+}
+.logo{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+}
+.staring{
+    width: 25px;
+    height: 25px;
+}
+
